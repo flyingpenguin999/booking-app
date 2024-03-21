@@ -1,9 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import './App.css'
-import Layout from './layouts/Layout'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Layout from "./layouts/Layout";
 
 function App() {
-
   return (
     <Router>
       <Routes>
@@ -12,7 +11,7 @@ function App() {
         {/* <Route path="*" element={<Navigate to="/" />} /> */}
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
